@@ -1,0 +1,132 @@
+//--- Вычисление числа PI на питоне аппроксимацией для разных точностей
+3,1415926535897932
+
+test: 0
+N approximation = 1
+Pi = 3.2
+Time = 3.337860107421875e-06
+
+test: 1
+N approximation = 10
+Pi = 3.1424259850010987
+Time = 3.5762786865234375e-06
+
+test: 2
+N approximation = 100
+Pi = 3.1416009869231254
+Time = 1.430511474609375e-05
+
+test: 3
+N approximation = 1000
+Pi = 3.1415927369231227
+Time = 0.0001392364501953125
+
+test: 4
+N approximation = 10000
+Pi = 3.141592654423134
+Time = 0.0014202594757080078
+
+test: 5
+N approximation = 100000
+Pi = 3.1415926535981615
+Time = 0.015988826751708984
+
+test: 6
+N approximation = 1000000
+Pi = 3.1415926535897643
+Time = 0.14474129676818848
+
+test: 7
+N approximation = 10000000
+Pi = 3.141592653589731
+Time = 1.43947172164917
+
+test: 8
+N approximation = 100000000
+Pi = 3.1415926535904264
+Time = 14.351228952407837
+
+test: 9
+N approximation = 1000000000
+Pi = 3.1415926535899708
+Time = 143.6317503452301
+
+test: 10
+N approximation = 10000000000
+Pi = 3.1415926535894507
+Time = 1658.5461666584015
+
+End of test
+
+//----------------------------------------------------------
+
+<<< Вычисление числа PI простой аппроксимацией с разной точностью >>>
+Самопал - переписал из теста питона для сравнения
+3,1415926535897932
+
+test: 0
+N approximation = 1
+PI = 3.2
+Time elapsed is: 822ns
+
+
+test: 1
+N approximation = 10
+PI = 3.1424259850010987
+Time elapsed is: 461ns
+
+
+test: 2
+N approximation = 100
+PI = 3.1416009869231254
+Time elapsed is: 2.844µs
+
+
+test: 3
+N approximation = 1000
+PI = 3.1415927369231227
+Time elapsed is: 27.477µs
+
+
+test: 4
+N approximation = 10000
+PI = 3.141592654423134
+Time elapsed is: 270.191µs
+
+
+test: 5
+N approximation = 100000
+PI = 3.1415926535981615
+Time elapsed is: 2.742263ms
+
+
+test: 6
+N approximation = 1000000
+PI = 3.1415926535897643
+Time elapsed is: 15.018886ms
+
+
+test: 7
+N approximation = 10000000
+PI = 3.141592653589731
+Time elapsed is: 127.949016ms
+
+
+test: 8
+N approximation = 100000000
+PI = 3.1415926535904264
+Time elapsed is: 1.279404529s
+
+
+test: 9
+N approximation = 1000000000
+PI = 3.1415926535899708
+Time elapsed is: 12.8025992s
+
+
+test: 10
+N approximation = 10000000000
+PI = 3.1415926535894507
+Time elapsed is: 127.860890555s
+
+End of test
